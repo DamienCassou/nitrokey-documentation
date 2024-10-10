@@ -11,7 +11,7 @@ The image can be obtained from `Nitrokey NetHSM registry <https://registry.git.n
    A compromised platform could easily compromise a NetHSM software container it executes.
    In addition the TRNG is not existent so that the entropy used and provided by the NetHSM depends on the platform's entropy. 
 
-Tagging Policy 
+Tagging Policy
 ^^^^^^^^^^^^^^
 
 The images in the repository are tagged with the Git commit hash and the version of the release.
